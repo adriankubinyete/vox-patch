@@ -1,0 +1,9 @@
+Mover
+
+Pasta falevox para dentro de /var/www/html/themes/
+mainstyle.css para dentro de /var/www/html/modules/pbxadmin/themes/detault/css/ (Substituindo o arquivo existente)
+favicon.ico para /var/www/html/ (Substituindo o arquivo existente)
+
+Após isso ir em dentro de System > Preferences > Themes > Mudar tema para falevox, dentro do issabel
+
+mv /home/centos/falevox /var/www/html/themes&&mv /home/centos/mainstyle.css /var/www/html/modules/pbxadmin/themes/default/css&&mv /home/centos/favicon.ico /var/www/html
